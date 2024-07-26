@@ -2,12 +2,18 @@
 module.exports = {
   content:  ["./public/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        kucing: 'url("../public/image/foto.jpeg")',
+        kucing: 'url("../public/image/foto.jpeg")',
+      },
+      fontFamily:{
+        georama:'Georama',
+        PlayfairDisplay:'Playfair Display'
+      }
+    },
   },
   plugins: [],
-  backgroundImage: {
-    kucing: 'url("../public/image/foto.jpeg")',
-    kucing: 'url("../public/image/foto.jpeg")',
-  }
+ 
 }
 
